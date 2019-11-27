@@ -1,2 +1,2 @@
 # Guass-Newton-Method-Algorithm
-Guass-Newton
+Training sunspot data using Guass-newton method
