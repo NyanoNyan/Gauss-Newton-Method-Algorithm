@@ -200,7 +200,10 @@ for epoch1=1:200
      fprintf('Epoch %3d:  Error = %f\n',epoch1,TSS);
      if TSS < TSS_Limit, break, end
 end
+
+% Plot to see if it fits the Sunspot data
 plot([11:278],Desired(11:278),[11:278],OutStore(11:278));
 title('Sunspot Data')
 
-plot(MSE);hold on;
+% Plot to see the MSE
+%plot(MSE);hold on;
