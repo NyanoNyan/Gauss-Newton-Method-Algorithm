@@ -5,7 +5,7 @@ Training Sunspot Data using Guass-newton method (using the Hessian matrix) - Tim
 
 # Results
 
-<img src="images/Final_results.JPG" width="600">
+<img src="images/Final_results.JPG" width="900">
 
 Guass-Newton method performs better compared to the backpropogation algorithm and reduces the MSE much faster.
 
