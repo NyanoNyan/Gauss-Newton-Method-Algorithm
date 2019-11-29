@@ -13,6 +13,7 @@ Guass-Newton method performs better compared to the backpropogation algorithm an
 
 <img src="images/sunspot_data.JPG" width="500">
 
+The blue line represnts the actual sunspot data, the orange line represents the predicted values of the sunspot data.
 From the results of above, this shows that the Guass-Newtwon method using the inverse approxiation hessian was able to predict well of the sunspot data.
 
 
