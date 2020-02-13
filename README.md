@@ -1,5 +1,5 @@
 # Gauss-Newton-Method-Algorithm
-Training Sunspot Data using Guass-newton method (using the Hessian matrix) Project - Time Series
+Training Sunspot Data using Gauss-newton method (using the Hessian matrix) Project - Time Series
 
 <img src="images/pic.JPG" width="600">
 
@@ -7,7 +7,7 @@ Training Sunspot Data using Guass-newton method (using the Hessian matrix) Proje
 
 <img src="images/Final_results.JPG" width="900">
 
-Guass-Newton method performs better compared to the backpropogation algorithm and reduces the MSE much faster.
+Gauss-Newton method performs better compared to the backpropogation algorithm and reduces the MSE much faster.
 
 # Prediction of sunspot data
 
@@ -15,14 +15,14 @@ Guass-Newton method performs better compared to the backpropogation algorithm an
 
 The blue line represnts the actual sunspot data, the orange line represents the predicted values of the sunspot data.
 
-From the results of above, this shows that the Guass-Newtwon method using the inverse approxiation hessian was able to predict well of the sunspot data.
+From the results of above, this shows that the Gauss-Newtwon method using the inverse approxiation hessian was able to predict well of the sunspot data.
 
 
 # Gauss-Newtons Method
 
 The Gauass-Newtons Method converges very fast although it can be seen as unstable, the computation complexity for this method will only require the computation of Jacobian.
 
-<img src="images/Guass-newton_formula.JPG" width="200">
+<img src="images/Gauss-newton_formula.JPG" width="200">
 
 The Hessian can be approximately calculated by J T*J, where J is the Jacobian matrix. The Jacobian matrix consists of size M X W, where M  is the number of patterns and W is the number of weights in the model. It consists of the error of each pattern respect its weights. 
 
