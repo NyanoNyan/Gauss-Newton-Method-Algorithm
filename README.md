@@ -1,4 +1,4 @@
-# Guass-Newton-Method-Algorithm
+# Gauss-Newton-Method-Algorithm
 Training Sunspot Data using Guass-newton method (using the Hessian matrix) Project - Time Series
 
 <img src="images/pic.JPG" width="600">
@@ -18,7 +18,7 @@ The blue line represnts the actual sunspot data, the orange line represents the 
 From the results of above, this shows that the Guass-Newtwon method using the inverse approxiation hessian was able to predict well of the sunspot data.
 
 
-# Guass-Newtons Method
+# Gauss-Newtons Method
 
 The Gauass-Newtons Method converges very fast although it can be seen as unstable, the computation complexity for this method will only require the computation of Jacobian.
 
