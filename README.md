@@ -22,7 +22,7 @@ From the results of above, this shows that the Gauss-Newtwon method using the in
 
 The Gauass-Newtons Method converges very fast although it can be seen as unstable, the computation complexity for this method will only require the computation of Jacobian.
 
-<img src="images/Gauss-newton_formula.JPG" width="200">
+<img src="images/Guass-newton_formula.JPG" width="200">
 
 The Hessian can be approximately calculated by J T*J, where J is the Jacobian matrix. The Jacobian matrix consists of size M X W, where M  is the number of patterns and W is the number of weights in the model. It consists of the error of each pattern respect its weights. 
 
